@@ -20,6 +20,8 @@
 #include "user_interface.h"
 #include "../esp-gdbstub/gdbstub.h"
 
+#define XCHAL_DEBUGLEVEL 2
+
 // gdbstub.brk()     just executes a break instruction. Enters gdb
 static int lgdbstub_break(lua_State *L) {
   asm("break 0,0" ::);

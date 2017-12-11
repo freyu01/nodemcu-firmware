@@ -19,6 +19,7 @@
 #include "gdbstub-entry.h"
 #include "gdbstub-cfg.h"
 
+#define XCHAL_DEBUGLEVEL 2
 
 //From xtruntime-frames.h
 struct XTensa_exception_frame_s {
